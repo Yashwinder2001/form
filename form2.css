@@ -1,0 +1,20 @@
+*{
+    float:center;
+    /* background-colod; */
+}
+#salary{
+    margin-left:25px;
+    margin-top:-0px;
+    padding-left:0px;
+    /* margin-bottom:0px */
+}
+.one{
+    margin:0;
+    padding:0;
+}
+.two{
+    margin:0;
+    padding:0;
+    margin-top :-38px;
+    margin-left:160px;
+}

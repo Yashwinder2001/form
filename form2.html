@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <h1>Recuirement Form</h1>
+    <h2>ABC Group of Companies</h2>
+    <hr>
+    <div class="personalinfo">
+        <form action="form" id="form">
+            <label for="name">User Name:</label>
+            <input type="text" placeholder="Enter your name">
+            <br><br>
+            <label for="email">Email-Id:</label>
+            <input type="email" id="email"><br><br>
+            <label for="phoneno">Phone No:</label>
+            <input type="number" id="number"><br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="date"><br><br>
+            <label for="jobrole">Job Role:</label><br>
+            <label for="SD">Software Developer</label>
+            <input type="radio" id="jobrole"><br>
+            <label for="FSD">Full-Stack Designher</label>
+            <input type="radio" id="jobrole"><br>
+            <label for="PD">Python Developer</label>
+            <input type="radio" id="jobrole"><br><br>
+            <label for="gender">Gender:</label><br>
+            <label for="male">Male:</label>
+            <input type="radio" id="gender">
+            <label for="female">Female:</label>
+            <input type="radio" id="gender">
+            <label for="other">Other:</label>
+            <input type="radio" id="gender"><br><br>
+            <label for="Search">Search:</label>
+            <input type="search" id="search" placeholder="Search near location">
+            <hr>
+            <label for="salary">Salary Expectations</label><br>
+            <!-- <p>5L</p> --> <br>
+            <p class="one">5L</p><input type="range" id="salary"><p class="two">10L</p><br><br>
+            <label for="salary">Salary Expectation:</label>
+            <select name="salary" id="salary1">
+                <option value="4L">4L/Annum</option>
+                <option value="4.5">4.5L/Annum</option>
+                <option value="5">5L/Annum</option>
+                <option value="5.5">5.5L/Annum</option>
+            </select><br><br>
+            <label for="CV">Upload CV:</label>
+            <input type="file" id="myfile" name="filename">
+            <br><br>
+            <label for="link">Resume Link:</label><br><br>
+            <!-- <link rel="stylesheet" href="form1.html"> -->
+            <button>Submit</button>
+            <button>Reset</button>
+            <br><br>
+            <fieldset>
+                <legend>Search</legend>
+                <label for="Cities">Chosse the cities</label><br>
+                <input type="text" list="Cities" placeholder="Choose the city">
+                <datalist id="Cities">
+                    <option value="Delhi"></option>
+                    <option value="Mumbai"></option>
+                    <option value="Banglore"></option>
+                    <option value="Chandigarh"></option>
+                    <option value="Chennai"></option>
+                    <option value="Patiala"></option>
+                    <option value="Ambala"></option>
+                    <option value="Zirakpur"></option>
+                    <option value="Mohali"></option>
+                    <option value="Noida"></option>
+                </datalist>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
